@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApplication1.jnlp">
+  <information>
+    <title>JavaFXApplication1</title>
+    <vendor>julienathomas</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApplication1.jar" size="16673" download="eager" />
+    <jar href="lib/jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib/jna-platform-4.1.0.jar" size="1464423" download="eager" />
+    <jar href="lib/juv-rtmp-client-1.9.2e.jar" size="297587" download="eager" />
+    <jar href="lib/log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="lib/red5-client-1.0.9-RELEASE.jar" size="107147" download="eager" />
+    <jar href="lib/slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib/slf4j-simple-1.7.25.jar" size="15257" download="eager" />
+    <jar href="lib/thumbnailator-0.4.8.jar" size="109720" download="eager" />
+    <jar href="lib/vlcj-3.10.1-javadoc.jar" size="1932258" download="eager" />
+    <jar href="lib/vlcj-3.10.1-sources.jar" size="444092" download="eager" />
+    <jar href="lib/vlcj-3.10.1-test-sources.jar" size="220258" download="eager" />
+    <jar href="lib/vlcj-3.10.1-tests.jar" size="402818" download="eager" />
+    <jar href="lib/vlcj-3.10.1.jar" size="404748" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXApplication1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ExRtmpDesktopPublisher"  name="JavaFXApplication1" >
+    <fx:param name="VLC_PLUGIN_PATH" value="/Applications/VLC.app/Contents/MacOS/plugins"/>
+  </jfx:javafx-desc>
+  <update check="always"/>
+</jnlp>
